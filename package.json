@@ -1,16 +1,16 @@
 {
-  "name": "forge-starter",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/thirdweb-example/forge-starter.git",
-  "author": "thirdweb <eng@thirdweb.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@thirdweb-dev/contracts": "^3"
-  },
+  "name": "hardhat-javascript-starter",
   "scripts": {
     "build": "npx thirdweb@latest detect",
-    "deploy": "npx thirdweb@latest deploy",
-    "release": "npx thirdweb@latest release"
+    "deploy": "npx thirdweb@latest deploy -k MtDy4IHg0dPr_4kD_gxgw0qLFVzgY7Et93e0ld5HJrrnyXMq1etjAg_S78dG5Y_rV7VKCKZmVScYhL_bACWyjg",
+    "publish": "npx thirdweb@latest publish"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3.8.0",
+    "zksync-web3": "^0.14.3"
   }
 }
